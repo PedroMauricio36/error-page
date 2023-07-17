@@ -30,8 +30,8 @@ body {
 @media (max-width: 515px) {
    
     body {
-        background-size: 380%;
-        background-position: 65% 14%;
+        background-size: 324%;
+        background-position: 65% 0%;
     }
 
     .container {
