@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/deserto.jpg);
+    background-size: 98%;
+    background-position: 20px 1px;
+}
+
+.container {
+    position: absolute;
+    top: 16%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+}
+
+.error-code {
+    font-size: 100px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.error-message {
+    font-size: 29px;
+    color: #fff;
+}
+
+@media (max-width: 515px) {
+   
+    body {
+        background-size: 380%;
+        background-position: 65% 14%;
+    }
+
+
+}
